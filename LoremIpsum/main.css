@@ -1,0 +1,63 @@
+@import url('halloween.css');
+
+
+@media screen { 
+
+header {
+    text-align: center
+}
+body {
+    display: block;
+    margin: 8px;
+    color: red;
+    font-size: 24px/100%
+}
+
+nav ul li {list-style:none;
+
+}
+
+nav a:link {
+    color: white;
+    background-color: red         
+}
+
+nav a:hover {
+    color: rgb(0, 255, 98);
+    background-color: white
+}
+
+h1 {
+    font-family: 'Coorier', Georgia, serif;
+    font-size: 2em
+}
+
+h2 {
+    color: green;
+    font-style: italic;
+    font-size: 1.5em
+}
+
+header h2 {
+    color: black;
+
+}
+#cupcake h2 span {
+    color: black
+}
+
+p {
+    color: blue;
+    font-size: 18px
+}
+li {
+    font-variant: small-caps
+}
+p.two {
+    color: black;
+    font: bold 15px Arial, sans-serif;
+}
+footer {
+    font-weight: bold
+}
+}
