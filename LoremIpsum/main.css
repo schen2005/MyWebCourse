@@ -2,9 +2,20 @@
 
 
 @media screen { 
-
+html {
+    background: lightgray;
+    padding: 6px
+}
 header {
-    text-align: center
+    text-align: center;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+
 }
 body {
     display: block;
@@ -14,13 +25,14 @@ body {
 }
 
 nav ul li {list-style:none;
+    display: inline-block;
+
+    padding: 5px
 
 }
 
-nav a:link {
-    color: white;
-    background-color: red         
-}
+nav a:link {color: white; background-color:red}
+
 
 nav a:hover {
     color: rgb(0, 255, 98);
@@ -46,6 +58,13 @@ header h2 {
     color: black
 }
 
+article {
+    border-bottom: 2px solid red;
+    padding: 6px
+
+}
+article h2 { background-image: linear-gradient(to bottom, rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); }
+
 p {
     color: blue;
     font-size: 18px
@@ -61,3 +80,6 @@ footer {
     font-weight: bold
 }
 }
+
+
+
